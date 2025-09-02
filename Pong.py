@@ -58,7 +58,7 @@ while True:
     if opp.top < ball.y:
         opp.top += opp_speed
     if opp.top > ball.y:
-        opp.top -= opp_speed  # Fixed this line!
+        opp.top -= opp_speed 
     
      # Keep opp on screen  
     if opp.top <= 0:
